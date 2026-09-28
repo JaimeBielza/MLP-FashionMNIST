@@ -1,0 +1,23 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Dataset (se descarga automáticamente con torchvision)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Checkpoints intermedios (el modelo final fashion_mnist_model.pth sí se versiona)
+checkpoints/
+runs/
+*.ckpt
+
+# Sistema / editores
+.DS_Store
+.vscode/
+.idea/
